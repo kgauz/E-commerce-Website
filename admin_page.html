@@ -1,0 +1,67 @@
+<!-- <?php
+session_start();
+if (!isset($_SESSION['email']) || !isset($_SESSION['name'])) {
+    header("Location: input.php");
+    exit();
+}
+
+?> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>login system</title>
+</head>
+
+<body>
+
+    <!-- start of the menu  -->
+     
+    <div class="nav-links">
+        <h1>Krowned</h1>
+        <div class ="nav-link">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">Hair</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </nav>
+        </div>
+
+    </div>
+
+    <div class="dash">
+        <h3>Dashboard </h3>
+    </div>
+    <div class="category">
+        <p>5 Category</p>
+        <p>5 Category</p>
+        <p>5 Category</p>
+        <p>5 Category</p>
+    </div>
+    
+    
+    <div class="text-align1">
+        <h3>Welcome Admin here </h3>
+    </div>
+
+
+  <!-- <h1>Welcome Admin here, <?= $_SESSION['name']; ?>!</h1> -->
+   <a class="btn2" href="input.php">Logout</a> 
+
+ <footer>Copy right </footer> 
+
+
+    
+</body>
+</html>
